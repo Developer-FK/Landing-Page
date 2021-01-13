@@ -1,0 +1,128 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+   background-color: rgb(22, 22, 22);
+ 
+}
+
+
+#html{
+    color: white;
+    padding: 15px 1px 2px 12px;
+
+}
+
+#five{
+
+    color: orange;
+    font-size: 60px;
+    padding: 0px 0px 5px 2px;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    height: 6vh;
+    
+
+}
+ul{
+    width: 100%;
+    
+}
+.top li{
+
+    display: block;
+    float: left;
+    list-style: none;
+
+    padding: 11px 22px;
+    border-right: 1px solid black;
+
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    padding-left: 5px;
+    height: 90vh;
+}
+#left{
+    width: 75%;
+    height: 60vh;
+    padding: 10px 8px;
+    
+}
+#right{
+
+    width: 25%;
+    background-color: rgb(190, 190, 190);
+
+}
+.imgpara{
+    display: flex;
+    padding: 18px 0px;
+}
+
+.right-right>a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+.imgpara hr{
+    display: block;
+}
+
+p.lorem {
+    margin: 10px 0px;
+}
+.right-wrapper{
+
+    padding: 5px;
+}
+.right-right{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.side-para{
+
+    padding: 10px;
+    line-height: 24px;
+}
+.side-links{
+    list-style: none;
+    padding: 5px 0px;
+}
+.side-links>a{
+    color: rgb(131, 78, 0);
+}
+
+#wid{
+    padding: 10px 0px;
+}
+.footer{
+    background-color: rgb(61, 60, 60);
+    text-align: center;
+}
+
+.footer h3{
+
+    color: orange;
+    padding: 10px 0px;
+}
+
